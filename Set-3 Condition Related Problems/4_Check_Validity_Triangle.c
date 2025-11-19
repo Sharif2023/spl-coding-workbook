@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int a1, a2, a3;
+    printf("Enter three angles: ");
+    scanf("%d%d%d", &a1, &a2, &a3);
+    if (a1 + a2 + a3 == 180)
+        printf("Yes\n");
+    else
+        printf("No\n");
+    return 0;
+}
